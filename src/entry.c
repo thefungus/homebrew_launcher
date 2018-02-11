@@ -13,9 +13,9 @@ int __entry_menu(int argc, char **argv)
     //! *              Check if our application is started                *
     //! *******************************************************************
     if (OSGetTitleID != 0 &&
-        OSGetTitleID() != 0x000500101004A200 && // mii maker eur
-        OSGetTitleID() != 0x000500101004A100 && // mii maker usa
-        OSGetTitleID() != 0x000500101004A000)   // mii maker jpn
+        OSGetTitleID() != 0x0005000010145000 && // sm4sh eur
+        OSGetTitleID() != 0x0005000010144F00 && // sm4sh usa
+        OSGetTitleID() != 0x0005000010110E00)   // sm4sh jpn
         return EXIT_RELAUNCH_ON_LOAD;
 
     //! check if application needs a re-load

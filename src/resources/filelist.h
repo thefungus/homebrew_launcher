@@ -1,7 +1,7 @@
 /****************************************************************************
  * Loadiine resource files.
  * This file is generated automatically.
- * Includes 13 files.
+ * Includes 14 files.
  *
  * NOTE:
  * Any manual modification of this file will be overwriten by the generation.
@@ -23,11 +23,11 @@ typedef struct _RecourceFile
 extern const u8 bgMusic_ogg[];
 extern const u32 bgMusic_ogg_size;
 
-extern const u8 button_click_mp3[];
-extern const u32 button_click_mp3_size;
-
 extern const u8 button_png[];
 extern const u32 button_png_size;
+
+extern const u8 button_click_mp3[];
+extern const u32 button_click_mp3_size;
 
 extern const u8 font_ttf[];
 extern const u32 font_ttf_size;
@@ -65,8 +65,8 @@ extern const u32 rightArrow_png_size;
 static RecourceFile RecourceList[] =
 {
 	{"bgMusic.ogg", bgMusic_ogg, bgMusic_ogg_size, NULL, 0},
-	{"button_click.mp3", button_click_mp3, button_click_mp3_size, NULL, 0},
 	{"button.png", button_png, button_png_size, NULL, 0},
+	{"button_click.mp3", button_click_mp3, button_click_mp3_size, NULL, 0},
 	{"font.ttf", font_ttf, font_ttf_size, NULL, 0},
 	{"homebrewButton.png", homebrewButton_png, homebrewButton_png_size, NULL, 0},
 	{"launchMenuBox.png", launchMenuBox_png, launchMenuBox_png_size, NULL, 0},
